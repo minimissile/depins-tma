@@ -11,3 +11,9 @@ IOTX 专用捐赠地址
 • IOTX 地址: 0x2acba0d858b9674aa6980a5a9d8c96cd82780ffc
 
 请根据您使用的网络选择正确的地址进行捐赠。感谢您的理解和支持！
+
+
+
+
+网址：
+https://depins-tma.pages.dev/

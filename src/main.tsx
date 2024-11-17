@@ -12,7 +12,7 @@ WebApp.ready()
 WebApp.expand()
 WebApp.enableClosingConfirmation()
 WebApp.disableVerticalSwipes()
-WebApp.setHeaderColor('#211134')
+WebApp.setHeaderColor('#121212')
 
 if (WebApp.initDataUnsafe && WebApp.initDataUnsafe.user) {
   const userInfo = WebApp.initDataUnsafe.user

@@ -33,6 +33,14 @@ const TweetPage = () => {
       star: true,
       reply: true,
     },
+    {
+      source: 'Twitter',
+      link: 'https://x.com/anndylian/status/1857986201116160296?s=46&t=8okv4JLyqmLrR_yK9X8nPQ',
+      retweet: true,
+      follow: true,
+      star: true,
+      reply: true,
+    },
   ]
 
   return (
