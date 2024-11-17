@@ -10,6 +10,9 @@ import TweetActiveIcon from 'assets/tabbar/tab_tweet_active.svg'
 import PushIcon from 'assets/tabbar/tab_push.svg'
 import PushActiveIcon from 'assets/tabbar/tab_push_active.svg'
 
+import CommunityIcon from 'assets/tabbar/tab_community.svg'
+import CommunityActiveIcon from 'assets/tabbar/tab_community_active.svg'
+
 import SquareIcon from 'assets/tabbar/tab_square.svg'
 import SquareActiveIcon from 'assets/tabbar/tab_square_active.svg'
 
@@ -29,6 +32,7 @@ const Tabbar = () => {
       height: '28px',
     },
     { to: '/push', label: '发推', icon: <PushIcon />, activeIcon: <PushActiveIcon /> },
+    { to: '/community', label: '社群', icon: <CommunityIcon />, activeIcon: <CommunityActiveIcon /> },
     { to: '/square', label: '广场', icon: <SquareIcon />, activeIcon: <SquareActiveIcon /> },
   ]
 

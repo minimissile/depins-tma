@@ -7,6 +7,7 @@ import IndexPage from 'views'
 import TweetPage from 'views/tweet/TweetPage'
 import PushPage from 'views/PushPage'
 import SquarePage from 'views/square/SquarePage.tsx'
+import CommunityPage from '../views/community/CommunityPage.tsx'
 
 /**
  * 路由重定向
@@ -48,6 +49,10 @@ const router = createBrowserRouter([
           {
             path: 'square',
             element: <SquarePage />,
+          },
+          {
+            path: 'community',
+            element: <CommunityPage />,
           },
         ],
       },

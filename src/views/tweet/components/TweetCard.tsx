@@ -11,6 +11,7 @@ export interface TweetData {
   follow?: boolean
   retweet?: boolean
   reply?: boolean
+  reason?: string
 }
 
 export interface TweetCardProps {
@@ -82,6 +83,7 @@ const TweetCard: FC<TweetCardProps> = ({ data }) => {
       </SvgBox>
       <Text>{data.link}</Text>
       <Text>流量来源: {data.source}</Text>
+      <Text hidden={!data.reason}>冲推来源: {data.reason}</Text>
       <Flex gap={'15px'} alignItems={'center'}>
         操作:
         {data.star ? (

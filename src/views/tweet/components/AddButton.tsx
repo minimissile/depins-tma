@@ -14,9 +14,11 @@ const AddButton = () => {
       position={'fixed'}
       bottom={'100px'}
       right={'20px'}
+      zIndex={1}
+      gap={'3px'}
       onClick={handleAdd}
     >
-      <IconButton aria-label={'add'}>
+      <IconButton aria-label={'add'} bg={'#444'} _active={{ opacity: 1 }} _hover={{ opacity: 1 }}>
         <AddSvg />
       </IconButton>
       <Text>线报</Text>
