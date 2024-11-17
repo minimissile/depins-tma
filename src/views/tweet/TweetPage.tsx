@@ -41,6 +41,14 @@ const TweetPage = () => {
       star: true,
       reply: true,
     },
+    {
+      source: 'Twitter',
+      link: 'https://twitter.com/depinsapp/status/1857976020290383878',
+      retweet: true,
+      follow: true,
+      star: true,
+      reply: true,
+    },
   ]
 
   return (
