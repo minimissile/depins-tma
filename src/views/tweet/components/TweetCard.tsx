@@ -66,7 +66,7 @@ const TweetCard: FC<TweetCardProps> = ({ data }) => {
       border={'1px solid rgba(200,200,200,0.1)'}
       p={'15px'}
       borderRadius={'10px'}
-      boxShadow={'0px 0px 10px #1b1a1c'}
+      boxShadow={'0px 0px 8px #1b1a1c'}
       gap={'10px'}
       position={'relative'}
     >
